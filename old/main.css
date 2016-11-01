@@ -1,0 +1,193 @@
+* { 
+   padding: 0; 
+   margin: 0;
+}
+
+body { 
+	background-color: #EBE7EE; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: Light 300; 
+	color: #2F2E30;
+}
+
+#particles-js{
+	background-color: #551a8b;
+	height: 92vh;
+	width: 100%;
+
+}
+
+#welcome { 
+	position: absolute;
+	width: 100%; 
+	font-size: 300%; 
+	text-align: center;
+	color: #EBE7EE; 
+	top: 30%; 
+}
+
+nav { 
+	width: 100%; 
+	height: 7.5vh; 
+	text-align: center;
+}
+
+nav div { 
+	width: 20%; 
+	float: left;
+	background-color: #EBE7EE; 
+	height: 100%; 
+}
+
+nav a, a:visited { 
+	position: relative;
+	top: 30%; 
+	color: #551a8b;
+	text-decoration: none;
+	font-size: 1.2em; 
+}
+
+.pagebreak { 
+	background-color: #551a8b; 
+	height: 5px; 
+}
+
+#aboutus, #theteam, #meetings, #contact {  
+	height: 100%; 
+	padding-bottom: 3em;
+}
+
+.special { 
+	position: relative;
+	font-family: 'Pacifico', cursive;
+	color: #551a8b; 
+	float: right;
+	right: 50px;
+	font-size: 5em; 
+	margin-top: 20px;  
+}
+
+footer { 
+	position: relative;
+	bottom: 0px;
+	width: 100%; 
+	height: 10vh; 
+	background-color: #551a8b; 
+}
+
+footer img { 
+	position: relative;
+	top: 25%; 
+	height: 50%; 
+	display: block;
+	margin: 0 auto;
+}
+
+.info-container { 
+	position: relative;
+	width: 80%; 
+	margin: 0 auto;
+}
+
+#group { 
+	margin-right: 1em;
+	float: left;
+}
+
+#meetings table { 
+	position: relative;
+	margin: 0 auto;
+	width: 90%; 
+}
+
+#meetings table td { 
+	text-align: center;
+	padding: 5px; 
+}
+
+#meetings th { 
+	color: #EBE7EE;
+	background-color: #551a8b; 
+	font-size: 25px; 
+	padding-bottom: 5px; 
+}
+
+.table-shadow { 
+	background-color: #BCB9BE; 
+}
+
+#team-left { 
+	float: left;
+	width: 49%; 
+	margin-right: 10px
+}
+
+#team-right { 
+	float: right; 
+	width: 49%;  
+}
+
+#theteam img { 
+	width: 100px; 
+	float: left;
+	padding-right: 15px; 
+} 
+
+.position-special { 
+	font-weight: bolder;
+	font-size: 1.3em; 
+}
+
+#icons { 
+	position: relative;
+	margin: 0 auto;  
+	width: 100%; 
+}
+
+.icon { 
+	display: inline-block; 
+	color: #551a8b;
+	text-align: center;
+	width: 23%; 
+}
+
+.about-special { 
+	font-weight: bolder; 
+}
+
+.icon a { 
+	color: #551a8b;
+	text-decoration: none;
+}
+
+#aboutus a, #theteam a { 
+	color: #2F2E30;
+}
+
+.special-sponsor { 
+	position: relative;
+	font-family: 'Pacifico', cursive;
+	color: #551a8b; 
+	text-align: center;
+	font-size: 5em; 
+	margin-top: 20px;
+}
+
+#sponsorpics div { 
+	display: inline-block;
+	position: relative;
+	max-width: 20%;
+	height: 300px; 
+	margin: 0 auto; 
+	margin-right: 30px; 
+}
+
+#sponsorpics div img { 
+	max-width: 100%;
+	max-height: 33%; 
+}
+
+#sponsorpics img { 
+	display: inline-block; 
+	max-width: 300px; 
+}
