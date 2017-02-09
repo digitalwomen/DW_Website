@@ -1,0 +1,41 @@
+.about-team{
+  padding-right: 10px;
+}
+
+.navbar-default{
+  background-color: #3F3F3F;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+  padding-top: 22px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+  padding-top: 22px;
+}
+
+.float-left{
+  float: left;
+}
+
+.grey-background{
+  background-color: #EFEFEF;
+}
+
+.padding{
+  padding: 0px 125px;
+}
