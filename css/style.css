@@ -105,3 +105,16 @@ a {
 .logo { 
   max-width: 500px; 
 }
+
+
+.right.hide-on-med-and-down li.highlight {
+  background-color: #e0e0e0;
+}
+
+.right.hide-on-med-and-down li.highlight a{
+  color: #673ab7;
+}
+
+div.highlight {
+  background-color: #b69ee0;
+}
