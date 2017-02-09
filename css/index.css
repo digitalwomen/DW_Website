@@ -40,6 +40,18 @@
   padding: 0px 125px;
 }
 
+a {
+  color: #673ab7;
+}
+
+.about-special {
+  font-weight: bolder;
+}
+
+.logo {
+  max-width: 500px;
+}
+
 .right.hide-on-med-and-down li.highlight {
   background-color: #e0e0e0;
 }
