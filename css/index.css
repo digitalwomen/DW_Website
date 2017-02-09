@@ -40,32 +40,6 @@
   padding: 0px 125px;
 }
 
-.right.hide-on-med-and-down li.highlight {
-  background-color: #e0e0e0;
-}
-
-.right.hide-on-med-and-down li.highlight a{
-  color: #673ab7;
-}
-
-.highlight {
-  background-color: #b69ee0;
-}
-
-#signup{
-  background-color: purple;
-  height: 100px;
-  max-width: 270px;
-  border-radius: 20px;
-  margin:auto;
-}
-
-#signup a h3{
-  width:100%;
-  height:100%;
-  color:white;
-}
-
-#signup a:hover{
+#signupcontainer {
   text-decoration: none;
 }
