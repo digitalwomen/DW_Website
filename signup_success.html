@@ -5,7 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<style>
 	body {
-		background-color: #b680ff;
+		background-color: #ede7f6;
 		font-family: 'Roboto', sans-serif;
 	}
 	body div > * {
@@ -17,7 +17,7 @@
 		margin-bottom: 20px;
 	}
 	body div {
-		margin-top: 100px;
+		margin-top: 40px;
 	}
 	a {
 		text-decoration: none;
@@ -31,17 +31,35 @@
 		padding: 10px;
 		border-radius: 10px;
 	}
+	img#cclogo {
+	    max-height: 300px;
+	    width: auto;
+	    position: relative;
+	    left: 10px;
+	}
+	img#dwlogo{
+		width:370px;
+	}
+	p{
+		font-size: 10px;
+	}
 	</style>
+	<script>
+	setTimeout(function () {
+	   window.location.href = "./index.html#codecamp";
+	}, 3000);
+	</script>
 </head>
 <body>
 
 <div>
 
-<img src="./images/horizontal_logo.png">
+<img id="dwlogo" src="./images/logo_purple.png">
 
 <h3>Thank you for signing up for Code Camp!</h3>
+<p>You'll be redirected to the Digital Women homepage</p>
 
-<a href="./index.html"><div>Take Me Back To Digital Women</div></a>
+<img id="cclogo" src="./images/DW%20nobackground.png">
 
 </div>
 
