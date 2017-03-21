@@ -3,12 +3,13 @@
 <head>
 	<title>Signup Successful!</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<style>
 	body {
 		background-color: #ede7f6;
 		font-family: 'Roboto', sans-serif;
 	}
-	body div > * {
+	body > div > * {
 		margin:auto;
 		width:60%;
 		display: block;
@@ -43,11 +44,26 @@
 	p{
 		font-size: 10px;
 	}
+
 	</style>
 	<script>
-	setTimeout(function () {
-	   window.location.href = "./index.html#codecamp";
-	}, 3000);
+	var agreements = {COC: false, Data: false};
+	var agree = function(check){
+		switch(check){
+			case 1:
+				agreements.COC = !agreements.COC;
+				break;
+			case 2:
+				agreements.Data = !agreements.Data;
+				break;
+		}
+		if(agreements.COC && agreements.Data){
+			$("#text").prepend("<h3>Thank you for signing up for Code Camp!</h3>");
+			setTimeout(function () {
+			   window.location.href = "./index.html#codecamp";
+			}, 3000);
+		}
+	};
 	</script>
 </head>
 <body>
@@ -56,8 +72,11 @@
 
 <img id="dwlogo" src="./images/logo_purple.png">
 
-<h3>Thank you for signing up for Code Camp!</h3>
-<p>You'll be redirected to the Digital Women homepage</p>
+<div id="text">
+		<input type="checkbox" onclick="agree(1)"/> I agree to the <a href="./code-of-conduct.pdf">MLH Code of Conduct</a><br />
+		<input type="checkbox" onclick="agree(2)"/> I agree to the terms of both the MLH Contest Terms and Conditions and the MLH Privacy Policy. Please note that you may receive pre and post-event informational e-mails and occasional messages about hackathons from MLH as per the MLH Privacy Policy.
+</div>
+
 
 <img id="cclogo" src="./images/DW%20nobackground.png">
 
