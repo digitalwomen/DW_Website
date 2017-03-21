@@ -53,3 +53,11 @@
   max-height: 80px;
   margin:10px;
 }
+
+.faq > *{
+  min-height:260px;
+}
+
+.faq .card .card-content .card-title {
+  line-height: 32px;
+}
