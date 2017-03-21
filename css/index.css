@@ -45,5 +45,11 @@
 }
 
 .tier1 > img {
-  max-height: 200px;
+  max-height: 160px;
+  margin:10px;
+}
+
+.tier2 > img {
+  max-height: 80px;
+  margin:10px;
 }
