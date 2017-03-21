@@ -43,3 +43,7 @@
 #signupcontainer {
   text-decoration: none;
 }
+
+.tier1 > img {
+  max-height: 200px;
+}
