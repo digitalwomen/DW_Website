@@ -96,7 +96,7 @@
 		"location":""
 	},
 	{
-		"date_time":"2017-04-08T06:00",
+		"date_time":"2017-04-08T07:00",
 		"title":"Sunrise Yoga",
 		"subtitle":"",
 		"img":"yoga.png",
@@ -120,14 +120,6 @@
 		"location":""
 	},
 	{
-		"date_time":"2017-04-08T11:00",
-		"title":"Session: CS Careers & Grad School",
-		"subtitle":"Prof. Jeremy Shaefer",
-		"img":"grad cap.gif",
-		"img2":"",
-		"location":""
-	},
-	{
 		"date_time":"2017-04-08T12:00",
 		"title":"Lunch",
 		"subtitle":"Papa John's",
@@ -138,7 +130,7 @@
 	{
 		"date_time":"2017-04-08T14:00",
 		"title":"Session: Embedded Systems",
-		"subtitle":"Diane Roer",
+		"subtitle":"Diane Rover",
 		"img":"hardware.png",
 		"img2":"",
 		"location":""
