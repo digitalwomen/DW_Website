@@ -4,12 +4,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <title>DW Code Camp</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!--<script src="./js/ccitin.js"></script>-->
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <style>
+    .event {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #9973ce;
+        border-radius: 10px;
+    }
+    .event img {
+        max-height: 100px;
+        margin: 10px;
+        opacity: 0.8;
+    }
+    </style>
 </head>
 <body>
 <!-- Social Media Drop -->
@@ -69,121 +86,20 @@
     <div class="row">
 
         <h1 class="header col s12 center">
-            Code Camp
+            Code Camp Itinerary
         </h1>
-        <h3 class="header col s12 center">
-            Coming Soon
-            <br>
-            <span style="color: purple;" class="about-special">April 2017</span>
-        </h3>
-        <div class="col s12 m12 center">
-            <br>
-            <!-- href=
-                    "https://my.mlh.io/oauth/authorize?client_id=
-                    f4f0c8d99cd98e77b5bb4c360b7ff3a33e2d9528ee215a8a495600225d15d7a3
-                    &redirect_uri=text=http%3A%2F%2Fdigitalwomen.ece.iastate.edu%2F
-                    &response_type=token"-->
-            <a class="btn-large deep-purple darken disabled">Register</a>
-            <a class="btn-large deep-purple lighten-1 darken"
-               href="mailto:pierce@iastate.edu">Sponsor</a>
-            <br>
-            <br>
+
+        <div id="itinerary">
+
         </div>
 
-        <!-- intro card -->
-        <div class="col s12 m12">
-            <div class="card deep-purple lighten-5">
-                <div class="card-content">
-                    <span class="card-title">Digital Women's Code Camp</span>
-                    <p>
-                    <hr>
-                    This year Digital Women is planning a 24 hour code camp for girls who
-                    are interested in technology. This event will take place
-                    <span style="color: purple;" class="about-special">
-                                April 8th and 7th, 2017 </span> in the
-                    <span style="color: purple;" class="about-special">Coover TLA
-                            </span>.
-                    <br><br>
-                    If you would like to join our committee to help set up this inaugural event
-                    click the please feel free to email Kate Litscher by clicking the link below!
-                    </p>
-                </div>
-                <div class="card-action">
-                    <!-- https://my.mlh.io/docs#overview -->
-                    <a > </a>
-                    <a href="mailto:litscher@iastate.edu">Join the committee</a>
-                </div>
-            </div>
-        </div>
-        <br>
+        <div id="friday" class="col s6 center">
+        <h3><em>4.7.17</em></h3>
+        <hr><h5><em>5:00p</em></h5><div class="row"><div class="event col center"><h4>Check In</h4><h5></h5><p><em></em></p><img src="./images/icons/handshake.png"></div></div><hr><h5><em>6:00p</em></h5><div class="row"><div class="event col center"><h4>Opening Ceremonies</h4><h5></h5><p><em></em></p><img src="./images/icons/woman talking.png"></div></div><hr><h5><em>7:00p</em></h5><div class="row"><div class="event col center"><h4>Team Building</h4><h5></h5><p><em></em></p><img src="./images/icons/teamwork.png"></div></div><hr><h5><em>7:30p</em></h5><div class="row"><div class="event col center"><h4>Dinner</h4><h5>Potbelly's</h5><p><em></em></p><img src="./images/icons/sandwich.png"></div></div><hr><h5><em>8:00p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: Git Intro</h4><h5>Ellen Holland + Kate Litscher</h5><p><em></em></p><img src="./images/icons/git.png"></div></div><hr><h5><em>9:00p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: HTML</h4><h5>Sydney Ehlinger</h5><p><em></em></p><img src="./images/icons/html.png"></div></div><hr><h5><em>9:00p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: Unity</h4><h5>Rob Quinn</h5><p><em></em></p><img src="./images/icons/unity.png"></div></div><hr><h5><em>9:30p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: Neo4j</h4><h5>Prof. Tavanapong</h5><p><em></em></p><img src="./images/icons/neo4j.png"></div></div><hr><h5><em>9:30p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: Python</h4><h5>Gabby Ortman</h5><p><em></em></p><img src="./images/icons/python.png"></div></div><hr><h5><em>10:00p</em></h5><div class="row"><div class="event col center"><h4>Crash Course: Node Server</h4><h5>Aimee Pierce</h5><p><em></em></p><img src="./images/icons/node.png"></div></div><hr><h5><em>11:00p</em></h5><div class="row"><div class="event col center"><h4>MLH Slide Charades</h4><h5></h5><p><em></em></p><img src="./images/icons/presenting.png"></div></div></div>
+        <div id="saturday" class="col s6 center">
+        <h3><em>4.8.17</em></h3>
+        <hr><h5><em>12:00a</em></h5><div class="row"><div class="event col center"><h4>Midnight Snack</h4><h5>Potbelly Shakes</h5><p><em></em></p><img src="./images/icons/shake.png"><img src="./images/icons/moon.png"></div></div><hr><h5><em>6:00a</em></h5><div class="row"><div class="event col center"><h4>Sunrise Yoga</h4><h5></h5><p><em></em></p><img src="./images/icons/yoga.png"><img src="./images/icons/sunrise.png"></div></div><hr><h5><em>8:00a</em></h5><div class="row"><div class="event col center"><h4>Breakfast</h4><h5>Hyvee</h5><p><em></em></p><img src="./images/icons/bfast.png"></div></div><hr><h5><em>10:00a</em></h5><div class="row"><div class="event col center"><h4>Session: How to Demo</h4><h5></h5><p><em></em></p><img src="./images/icons/presentation.png"></div></div><hr><h5><em>11:00a</em></h5><div class="row"><div class="event col center"><h4>Session: CS Careers &amp; Grad School</h4><h5>Prof. Jeremy Shaefer</h5><p><em></em></p><img src="./images/icons/grad cap.gif"></div></div><hr><h5><em>12:00p</em></h5><div class="row"><div class="event col center"><h4>Lunch</h4><h5>Papa John's</h5><p><em></em></p><img src="./images/icons/pizza.png"></div></div><hr><h5><em>2:00p</em></h5><div class="row"><div class="event col center"><h4>Session: Embedded Systems</h4><h5>Diane Roer</h5><p><em></em></p><img src="./images/icons/hardware.png"></div></div><hr><h5><em>4:30p</em></h5><div class="row"><div class="event col center"><h4>Coding Ends</h4><h5>Devpost Submissions Due</h5><p><em></em></p><img src="./images/icons/alarm.png"></div></div><hr><h5><em>4:30p</em></h5><div class="row"><div class="event col center"><h4>Club Presentations</h4><h5></h5><p><em></em></p><img src="./images/icons/podium.png"></div></div><hr><h5><em>5:00p</em></h5><div class="row"><div class="event col center"><h4>Project Demos</h4><h5></h5><p><em></em></p><img src="./images/icons/robot.png"></div></div><hr><h5><em>6:00p</em></h5><div class="row"><div class="event col center"><h4>Dinner</h4><h5>Fighting Burrito</h5><p><em></em></p><img src="./images/icons/taco.png"></div></div><hr><h5><em>6:15p</em></h5><div class="row"><div class="event col center"><h4>Closing Ceremonies</h4><h5></h5><p><em></em></p><img src="./images/icons/party.png"></div></div></div>
 
-        <!-- description cards -->
-        <h2 class="header col s12 center">
-
-            Things To Get You Started
-        </h2>
-
-        <!-- Git -->
-        <div class="col s6 m6">
-            <div class="card deep-purple lighten-5">
-                <div class="card-content">
-                    <span class="card-title">Git</span>
-                    <p>
-                    <hr>
-                    Git is a type of <i>version control</i>. There are many others, but git
-                    is used a lot by students and may even be used in some of your
-                    classes such as
-                    <span style="color: purple;" class="about-special">COMS 309</span>.
-                    Below is a link to a beginners guide to learning git through GitHub.
-                    <br><br><br>
-                    </p>
-                </div>
-                <div class="card-action">
-                    <a href="https://try.github.io/levels/1/challenges/1" target="_blank">Learn Git</a>
-                    <!--<a href="#">This is a link</a>-->
-                </div>
-            </div>
-        </div>
-
-        <!-- HTML -->
-        <div class="col s6 m6">
-            <div class="card deep-purple lighten-5">
-                <div class="card-content">
-                    <span class="card-title">HTML</span>
-                    <p>
-                    <hr>
-                    If you are new to HTML you can check out our presentation linked below
-                    where we give a brief overview on HTML to get you started.
-                    <br><br>
-                    Additionally, once you've created your own website you can <i>push</i>
-                    it to GitHub where they will host it for you for free!
-                    </p>
-                </div>
-                <div class="card-action">
-                    <a href="https://drive.google.com/open?id=1LfgPfa_BR_KqwrJfVDbuo2Xg3IqGm8yAkPZL6ZbEdj4"
-                       target="_blank">HTML Presentation</a>
-                    <a href="https://drive.google.com/open?id=1UrPvcLMUiHGZsI_LehjUAh3f4qP2m2OrUcwwm16zZD4"
-                       target="_blank">Free Website Pres</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- SQL & Databases -->
-        <!--<div class="col s6 m6">-->
-        <!--<div class="card deep-purple lighten-5">-->
-        <!--<div class="card-content">-->
-        <!--<span class="card-title">SQL & Databases</span>-->
-        <!--<p>-->
-        <!--<hr>-->
-        <!--words words words words words-->
-        <!--</p>-->
-        <!--</div>-->
-        <!--<div class="card-action">-->
-        <!--<a href="#">This is a link</a>-->
-        <!--<a href="#">This is a link</a>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
     </div>
 </div>
 

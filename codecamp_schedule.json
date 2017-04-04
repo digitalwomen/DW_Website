@@ -1,0 +1,178 @@
+[
+	{
+		"date_time":"2017-04-07T17:00",
+		"title":"Check In",
+		"subtitle":"",
+		"img":"handshake.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T18:00",
+		"title":"Opening Ceremonies",
+		"subtitle":"",
+		"img":"woman talking.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T19:00",
+		"title":"Team Building",
+		"subtitle":"",
+		"img":"teamwork.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T19:30",
+		"title":"Dinner",
+		"subtitle":"Potbelly's",
+		"img":"sandwich.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T20:00",
+		"title":"Crash Course: Git Intro",
+		"subtitle":"Ellen Holland + Kate Litscher",
+		"img":"git.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T21:00",
+		"title":"Crash Course: HTML",
+		"subtitle":"Sydney Ehlinger",
+		"img":"html.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T21:00",
+		"title":"Crash Course: Unity",
+		"subtitle":"Rob Quinn",
+		"img":"unity.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T21:30",
+		"title":"Crash Course: Neo4j",
+		"subtitle":"Prof. Tavanapong",
+		"img":"neo4j.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T21:30",
+		"title":"Crash Course: Python",
+		"subtitle":"Gabby Ortman",
+		"img":"python.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T22:00",
+		"title":"Crash Course: Node Server",
+		"subtitle":"Aimee Pierce",
+		"img":"node.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-07T23:00",
+		"title":"MLH Slide Charades",
+		"subtitle":"",
+		"img":"presenting.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T00:00",
+		"title":"Midnight Snack",
+		"subtitle":"Potbelly Shakes",
+		"img":"shake.png",
+		"img2":"moon.png",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T07:00",
+		"title":"Sunrise Yoga",
+		"subtitle":"",
+		"img":"yoga.png",
+		"img2":"sunrise.png",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T08:00",
+		"title":"Breakfast",
+		"subtitle":"Hyvee",
+		"img":"bfast.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T10:00",
+		"title":"Session: How to Demo",
+		"subtitle":"",
+		"img":"presentation.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T12:00",
+		"title":"Lunch",
+		"subtitle":"Papa John's",
+		"img":"pizza.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T14:00",
+		"title":"Session: Embedded Systems",
+		"subtitle":"Diane Rover",
+		"img":"hardware.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T16:30",
+		"title":"Coding Ends",
+		"subtitle":"Devpost Submissions Due",
+		"img":"alarm.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T16:30",
+		"title":"Club Presentations",
+		"subtitle":"",
+		"img":"podium.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T17:00",
+		"title":"Project Demos",
+		"subtitle":"",
+		"img":"robot.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T18:00",
+		"title":"Dinner",
+		"subtitle":"Fighting Burrito",
+		"img":"taco.png",
+		"img2":"",
+		"location":""
+	},
+	{
+		"date_time":"2017-04-08T18:15",
+		"title":"Closing Ceremonies",
+		"subtitle":"",
+		"img":"party.png",
+		"img2":"",
+		"location":""
+	}
+]
