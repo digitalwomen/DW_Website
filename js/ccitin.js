@@ -27,7 +27,7 @@ $(document).ready(function(){
 			var row = document.createElement("div");
 			$(row).attr("class", "row");
 
-			var new_elem = document.createElement("div");			
+			var new_elem = document.createElement("div");
 			$(new_elem).attr("class", "event col center");
 
 
@@ -56,12 +56,12 @@ $(document).ready(function(){
 			row.append(new_elem);
 
 			$(day).append(row);
-			
+
 		});
 
 	});
 
-	
 
-	
+
+
 });
