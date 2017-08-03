@@ -32,7 +32,7 @@ p {
 
 .parallax-container img
 {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 @media only screen and (max-width : 992px) {
@@ -62,20 +62,20 @@ footer.page-footer {
   margin: 0;
 }
 
-.exec-members img { 
-  max-width: 120px; 
+.exec-members img {
+  max-width: 120px;
   float: left;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 
-.header-parent { 
+.header-parent {
   position: relative;
-  background-color: #673ab7; 
-  color: white; 
+  background-color: #673ab7;
+  color: white;
   /*height: 95vh; */
 }
 
-.header-card { 
+.header-card {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -83,27 +83,27 @@ footer.page-footer {
   right: 0;
 /*  width: 50%;*/
   height: 35%;
-  margin: auto; 
+  margin: auto;
 }
 
-#particles-js { 
+#particles-js {
   height: 92.5vh;
 }
 
-.club-name { 
-  background-color: #7e57c2; 
+.club-name {
+  background-color: #7e57c2;
 }
 
-a { 
+a {
   color: #673ab7;
 }
 
-.about-special { 
-  font-weight: bolder; 
+.about-special {
+  font-weight: bolder;
 }
 
-.logo { 
-  max-width: 500px; 
+.logo {
+  max-width: 500px;
 }
 
 
@@ -120,8 +120,8 @@ div.highlight {
 }
 
 #signup{
-  background-color: purple;  
-  height: 100px; 
+  background-color: purple;
+  height: 100px;
   max-width: 270px;
   border-radius: 20px;
   margin:auto;
@@ -131,4 +131,35 @@ div.highlight {
   width:100%;
   height:100%;
   color:white;
+}
+
+.fa.fa-calendar.fa-5x {
+  color:#673ab7;
+  text-align:center;
+  display:inline-block;
+  width:100%;
+}
+
+.fa.fa-cutlery.fa-5x {
+  color:#673ab7;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+
+.fa.fa-laptop.fa-5x {
+  color:#673ab7;
+  text-align:center;
+  display:inline-block;
+  width:100%;
+}
+
+.fa.fa-user.fa-5x {
+  color:#673ab7;
+  display:inline-block;
+  width:100%;
+}
+
+h5 {
+  font-weight: bold;
 }
