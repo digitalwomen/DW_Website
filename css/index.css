@@ -7,20 +7,19 @@
 }
 
 .navbar-default .navbar-brand{
-  color: white;
+ color: white;
   font-size: 30px;
-  padding-top: 20px;
+ height: 30px; padding-top: 5px; padding-left: 75px;
 }
 
 .navbar-default .navbar-brand:hover{
   color: white;
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .navbar-default .navbar-nav>li>a{
-  color: white;
-  padding-top: 22px;
+  color: white;  padding-top: 22px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
