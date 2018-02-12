@@ -164,6 +164,10 @@ h5 {
   font-weight: bold;
 }
 
+.text-white{
+  color: white;
+}
+
 .accordion {
     background-color: #B69EE0;
     color: #fff;
@@ -188,10 +192,22 @@ h5 {
   background-color: #824AB5;
 }
 
-
 .panel {
     padding: 0 px;
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+.center{
+  text-align: center;
+}
+
+.register{
+  background-color: #B69EE0;
+  border: 2px;
+  padding: 5px;
+  border-radius: 25px;
+  margin:0 auto;
+  width: 25%;
 }
