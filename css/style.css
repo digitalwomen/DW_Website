@@ -163,3 +163,51 @@ div.highlight {
 h5 {
   font-weight: bold;
 }
+
+.text-white{
+  color: white;
+}
+
+.accordion {
+    background-color: #B69EE0;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 1px;
+
+}
+
+.active, .accordion:hover {
+    background-color: #824AB5;
+}
+.active, .acordian:focus{
+  background-color: #824AB5;
+}
+
+.panel {
+    padding: 0 px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.center{
+  text-align: center;
+}
+
+.register{
+  background-color: #B69EE0;
+  border: 2px;
+  padding: 5px;
+  border-radius: 25px;
+  margin:0 auto;
+  width: 25%;
+}
